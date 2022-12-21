@@ -1,0 +1,36 @@
+{
+    "product": [
+        {
+            "title": "Cremon light, la serenisima",
+            "description": "queso cremoso reducido en grasa",
+            "price": "700",
+            "thumbnail": "",
+            "code": "1",
+            "stock": "20"
+        },
+        {
+            "title": "Punta del agua",
+            "description": "queso cremoso",
+            "price": "600",
+            "thumbnail": "",
+            "code": "2",
+            "stock": "25"
+        },
+        {
+            "title": "PorSalut, La paulina",
+            "description": "queso porsalut",
+            "price": "650",
+            "thumbnail": "",
+            "code": "3",
+            "stock": "15"
+        },
+        {
+            "title": "Queso azul, Sancor",
+            "description": "queso azul tipo roquefort",
+            "price": "720",
+            "thumbnail": "",
+            "code": "4",
+            "stock": "10"
+        }
+    ]
+}

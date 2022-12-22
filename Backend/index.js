@@ -64,7 +64,6 @@ class ProductManager {
         } else { return this.console.log(`Not found`)
             }
     }
-    // esto es delete o update??
 
     updateProduct(id, product) {
         let data = this.readFile();
@@ -78,18 +77,16 @@ class ProductManager {
         }
     }
 }
-    // esto es delete o update???
-
-
 
 
     const productManager = new ProductManager('products.json')
 
-    // let
 
     // productManager.addProduct()
     // productManager.getProductById()
     // productManager.deleteProduct()
     // productManager.updateProduct()
-// FALTA TERMINAR EL VER COMO CARGAR TODO Y COMO QUEDA!
+
+    // LO HICE CON EL EJEMPLO DEL AFTER CLASS..
+    // FALTA TERMINAR EL VER COMO CARGAR TODO Y COMO QUEDA!
 

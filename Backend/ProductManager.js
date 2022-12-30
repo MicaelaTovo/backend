@@ -1,4 +1,3 @@
-// const {queso1, queso2, queso3, queso4} = require('./database')
 const fs = require('fs');
 
 class ProductManager {
@@ -28,7 +27,7 @@ class ProductManager {
         }
     }
     
-    getAllProducts() {
+    getProducts() {
         let data = this.readFile();
         console.log(data);
         return data;
@@ -79,14 +78,13 @@ class ProductManager {
 }
 
 
-    const productManager = new ProductManager('products.json')
+    const productManager = new ProductManager('Backend/products.json')
 
 
-    // productManager.addProduct()
-    // productManager.getProductById()
-    // productManager.deleteProduct()
-    // productManager.updateProduct()
+    productManager.addProduct()
+    productManager.getProductById()
+    productManager.deleteProduct()
+    productManager.updateProduct()
 
-    // LO HICE CON EL EJEMPLO DEL AFTER CLASS..
-    // FALTA TERMINAR EL VER COMO CARGAR TODO Y COMO QUEDA!
 
+    module.exports = ProductManager;
